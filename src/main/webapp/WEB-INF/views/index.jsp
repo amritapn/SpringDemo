@@ -4,10 +4,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="static/css/bootstrap.css">
 <title>Home Page</title>
 </head>
 <body>
-	<h3>${msg}</h3>
+	<div class="jumbotron">
 
+		<i class="text-primary text-center">chaluchhi? han</i>
+
+	</div>
+	<div>
+		<h3>
+			<a href="${pageContext.request.contextPath}/login">Login</a>
+		</h3>
+	</div>
+
+
+	<script type="text/javascript" src="static/js/bootstrap.js"></script>
 </body>
 </html>
